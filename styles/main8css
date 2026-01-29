@@ -17,3 +17,10 @@ header h2 {
     color:maroon;
     text-indent: 30px;
 }
+header img {
+    float: left;
+}
+main {
+    clear: both;
+
+}
