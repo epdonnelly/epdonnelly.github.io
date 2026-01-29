@@ -1,6 +1,14 @@
 body {
-    font-family:Arial
-
-
-
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+}
+a:focus, a:focus {
+    font-style: italic;
+    color:orangered
+}
+header h1 {
+    font-size: 175%;
+    color:maroon;
+    text-indent: 30px;
 }
