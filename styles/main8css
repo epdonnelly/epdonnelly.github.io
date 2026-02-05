@@ -10,7 +10,7 @@ body {
 }
 a:focus, a:focus {
     font-style: italic;
-    color:orangered
+    color:orangered;
 }
 header h1 {
     font-size: 175%;
