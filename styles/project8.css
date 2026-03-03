@@ -101,4 +101,5 @@ p.fixed {
     border: 1px solid darkgreen;
     float: right;
     background-color: greenyellow;
+    margin-top: 1em;
 }
