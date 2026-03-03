@@ -98,4 +98,6 @@ footer  {
 }
 p.fixed {
     width: auto;
+    border: 1px solid darkgreen;
+    float: right;
 }
