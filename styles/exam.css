@@ -82,6 +82,7 @@ aside {
     float: right;
     border-radius: 15px;
     border-color: #2d5a6b;
+    border: solid #2d5a6b;
 }
 footer.copyright {
     text-align: center;
