@@ -55,13 +55,6 @@ main nav {
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
 }
-nav {
-    background-color: blue;
-    border-radius: 20px;
-    padding: 1rem; 
-    color: white;
-    border: 10px solid blue;
-}
 main div.contact {
     margin: 1.5em 2em 0 2em;
     border: 5px dotted blue;
