@@ -90,3 +90,37 @@ aside {
 footer.copyright {
     text-align: center;
 }
+.navbar {
+  background-color: #0a1aff; /* deep blue */
+  padding: 0;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* horizontal layout */
+}
+.navbar li {
+  flex: 1; /* equal width buttons */
+  text-align: center;
+  border-right: 2px solid #ffffff; /* separators */
+}
+.navbar li:last-child {
+  border-right: none; /* remove last divider */
+}
+.navbar a {
+  display: block;
+  padding: 14px 0;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #1a33ff, #0000cc);
+  transition: background 0.3s ease;
+}
+.navbar a:hover {
+  background: linear-gradient(to bottom, #0000cc, #1a33ff);
+}
+.navbar a.active {
+  background: #000099;
+}
