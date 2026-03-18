@@ -90,6 +90,10 @@ aside {
 footer.copyright {
     text-align: center;
 }
+footer {
+    text-align: center;
+    padding: 15px;
+}
 .navbar {
   background-color: #0a1aff; /* deep blue */
   padding: 0;
