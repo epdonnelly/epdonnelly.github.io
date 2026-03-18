@@ -70,8 +70,8 @@ article {
     width: 75%;
     float: left;
     column-count: 3;
-    column-rule: 2px dotted maroon;
-    column-gap: 2em;
+    column-rule: 2px dotted rgb(4, 15, 129);
+    column-gap: 1em;
     margin-left: 2em;
     background-color: white;
 }
