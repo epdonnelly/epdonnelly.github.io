@@ -1,0 +1,172 @@
+/* ===== GLOBAL / BODY ===== */
+body {
+  width: 95%;
+  margin: 15px auto;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  color: #222;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/1280px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+/* ===== NAV ===== */
+nav {
+  display: flex;
+  background-color: #00008B;
+  border-bottom: 3px solid #00008B;
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 14px 30px;
+  border-right: 2px solid #333;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav a:hover {
+  background-color: #0000CD;
+}
+
+nav a.active {
+  color: #FFD700;
+}
+
+/* ===== MAIN WRAPPER — article + aside side by side ===== */
+#main-wrapper {
+  display: flex;
+  gap: 0;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-left: 2px solid #00008B;
+  border-right: 2px solid #00008B;
+}
+
+/* ===== ARTICLE ===== */
+article {
+  width: 75%;
+  padding-right: 20px;
+  border-right: 2px dashed #00008B;
+  column-count: 3;
+  column-gap: 0;
+  column-rule: 2px dashed #00008B;
+}
+
+article h1 {
+  color: #00008B;
+  font-family: Arial, sans-serif;
+  column-span: all;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+article h2 {
+  color: #FF8C00;
+  font-family: Arial, sans-serif;
+  break-after: avoid;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+article p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* ===== DROP CAP ===== */
+.drop-cap {
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  float: left;
+  line-height: 0.75;
+  margin-right: 4px;
+  padding-top: 6px;
+}
+
+/* ===== IMAGE wrapping in Introduction ===== */
+#nasa-img {
+  float: left;
+  width: 170px;
+  margin: 0 12px 8px 0;
+  border: 1px solid #ccc;
+}
+
+/* ===== ASIDE ===== */
+aside {
+  width: 20%;
+  padding-left: 15px;
+  position: fixed;
+  right: 3%;
+  top: 220px;
+  background-color: #cfe2f3;
+  border: 1px solid #aac;
+  padding: 15px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+aside ul {
+  list-style-type: upper-roman;
+  padding-left: 20px;
+  margin: 0 0 10px 0;
+}
+
+aside ul ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+aside ul ul ul {
+  list-style-type: lower-alpha;
+  padding-left: 20px;
+}
+
+aside a {
+  color: #00008B;
+  text-decoration: underline;
+}
+
+aside a:hover {
+  color: #0055aa;
+}
+
+#top-link {
+  display: block;
+  margin-top: 10px;
+  color: #00008B;
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  clear: both;
+  text-align: center;
+  border-top: 2px solid #00008B;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  background-color: #fff;
+}
+
+footer a {
+  color: #00008B;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #0055aa;
+}
