@@ -14,7 +14,8 @@ body {
     box-shadow: 5px 5px 0 0;
     background: url(/images/SHSULOGO.png) right repeat-y;
     background-attachment: fixed;
-    background-size: 50%
+    background-size: 50%;
+    background-position-x: 30%;
 }
 a:focus, a:focus {
     font-style: italic;
