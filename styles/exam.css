@@ -97,9 +97,11 @@ footer {
     left: 0px;
     right: 0px;
     width: auto;
+    clear: both;
+    border-top: 2px solid #0a1aff;
 }
 .navbar {
-  background-color: #0a1aff; /* deep blue */
+  background-color: #0a1aff;
   padding: 0;
 }
 .navbar ul {
