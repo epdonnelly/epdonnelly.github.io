@@ -98,15 +98,15 @@ footer.copyright {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex; /* horizontal layout */
+  display: flex;
 }
 .navbar li {
-  flex: 1; /* equal width buttons */
+  flex: 1;
   text-align: center;
-  border-right: 2px solid #ffffff; /* separators */
+  border-right: 2px solid #ffffff;
 }
 .navbar li:last-child {
-  border-right: none; /* remove last divider */
+  border-right: none;
 }
 .navbar a {
   display: block;
