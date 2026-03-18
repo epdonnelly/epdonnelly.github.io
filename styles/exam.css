@@ -62,3 +62,18 @@ main div.contact {
 footer.copyright {
     text-align: center;
 }
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: aqua;
+}
+article {   
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
