@@ -59,14 +59,11 @@ main div.contact {
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
-footer.copyright {
-    text-align: center;
-}
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 article {   
     clear: left;
@@ -82,4 +79,7 @@ aside {
     width: 20%;
     background-color: #7ad9fb;
     float: right;
+}
+footer.copyright {
+    text-align: center;
 }
