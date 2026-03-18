@@ -6,6 +6,7 @@ body {
     font-size: 100%;
     width: 95%;
     height: 2300px;
+    background-color: transparent;
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
