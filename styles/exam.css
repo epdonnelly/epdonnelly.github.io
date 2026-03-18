@@ -55,6 +55,11 @@ main nav {
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
 }
+nav {
+    background-color: blue;
+    padding: 1rem; 
+    color: white;
+}
 main div.contact {
     margin: 1.5em 2em 0 2em;
     border: 5px dotted blue;
