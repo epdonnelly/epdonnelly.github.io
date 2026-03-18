@@ -7,9 +7,9 @@ body {
     width: 1000px;
     background-color: white; 
     margin: 15px auto;
-    padding: 15px 1.5em;
+    padding: 15px auto;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: auto;
     box-shadow: 5px 5px 0 0;
     background: url(/images/shsu.png) right repeat-y;
     background-attachment: fixed;
