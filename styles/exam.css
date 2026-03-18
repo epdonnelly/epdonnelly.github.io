@@ -77,7 +77,7 @@ article {
     column-gap: 1em;
     column-width: 1em;
     margin-left: 2em;
-    background-color: #f7f7f7;
+    background-color: transparent;
 }
 aside {
     width: 20%;
