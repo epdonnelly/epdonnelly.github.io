@@ -80,6 +80,8 @@ aside {
     width: 20%;
     background-color: #7ad9fb;
     float: right;
+    border-radius: 5px;
+    border-color: #569eb8;
 }
 footer.copyright {
     text-align: center;
