@@ -16,6 +16,7 @@ body {
     background-attachment: fixed;
     background-size: 50%;
     background-position-x: 100%;
+    border: 5px solid #0a1aff;
 }
 article h1{
     color:#0a1aff;
