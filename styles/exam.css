@@ -15,7 +15,7 @@ body {
     background: url(/images/titled2.png) right repeat-y;
     background-attachment: fixed;
     background-size: 50%;
-    background-position-x: 90%;
+    background-position-x: 100%;
 }
 title {
     border-top: 10px solid blue;
