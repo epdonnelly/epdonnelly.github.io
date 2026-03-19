@@ -17,6 +17,9 @@ body {
     background-size: 50%;
     background-position-x: 90%;
 }
+title {
+    border-top: 10px solid blue;
+}
 a:focus, a:focus {
     font-style: italic;
     color:orangered;
