@@ -20,6 +20,7 @@ body {
 title {
     border-top: 10px solid blue;
     margin-top: 0px;
+    color:#0a1aff;
 }
 a:focus, a:focus {
     font-style: italic;
