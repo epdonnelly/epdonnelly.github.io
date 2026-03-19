@@ -98,6 +98,7 @@ footer.copyright {
     text-align: center;
 }
 footer {
+    text-align: center;
     position: relative;
     margin-top: 1900px;
     height: 20px;
@@ -121,9 +122,6 @@ footer {
     border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
-nav {
-    border-top: 5px solid #0a1aff;
-}
 article {
     border-top: 5px solid #0a1aff;
 }
