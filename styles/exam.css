@@ -48,13 +48,6 @@ main h3 {
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
 }
-main nav {
-    margin: 1.5em 2em 0 2em;
-    border: 50px dashed blue;
-    border-radius: 5px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 0.5em;
-}
 main div.contact {
     margin: 1.5em 2em 0 2em;
     border: 5px dotted blue;
@@ -100,39 +93,17 @@ footer {
     clear: both;
     border-top: 2px solid #0a1aff;
 }
-.navbar {
-  background-color: #0a1aff;
-  padding: 0;
-}
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex !important;
-}
-.navbar li {
-  flex: 1;
-  text-align: center;
-  border-right: 2px solid #ffffff;
-  float: left;
-  display: none;
-}
-.navbar li:last-child {
-  border-right: none;
-}
-.navbar a {
-  display: block;
-  padding: 14px 0;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #1a33ff, #0000cc);
-  transition: background 0.3s ease;
-}
-.navbar a:hover {
-  background: linear-gradient(to bottom, #0000cc, #1a33ff);
-}
-.navbar a.active {
-  background: #000099;
-}
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }
+#nav_menu ul li a.current { color: yellow; }
