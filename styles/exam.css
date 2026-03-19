@@ -19,7 +19,7 @@ body {
 }
 title {
     border-top: 10px solid blue;
-    margin-top: 0px;
+    bottom: 100px;
     color:#0a1aff;
 }
 a:focus, a:focus {
