@@ -15,7 +15,7 @@ body {
     background: url(/images/titled2.png) right repeat-y;
     background-attachment: fixed;
     background-size: 50%;
-    background-position-x: 70%;
+    background-position-x: 90%;
 }
 a:focus, a:focus {
     font-style: italic;
