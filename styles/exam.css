@@ -124,5 +124,5 @@ footer {
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 article {
-    border-top: 5px solid #0a1aff;
+    border-top: 2px solid #0a1aff;
 }
