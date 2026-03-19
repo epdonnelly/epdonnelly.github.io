@@ -19,6 +19,7 @@ body {
 }
 title {
     border-top: 10px solid blue;
+    margin-top: -10px;
 }
 a:focus, a:focus {
     font-style: italic;
@@ -78,7 +79,7 @@ article {
     margin-left: 2em;
     background-color: transparent;
     margin-top: 80px;
-    border-top: 10px solid blue;
+    border-top: 5px solid blue;
 }
 article img {   
     float: left;
@@ -122,5 +123,5 @@ footer {
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 #nav_menu{
-    border-bottom: 2px solid #0a1aff;
+    border-bottom: 0px solid #0a1aff;
 }
