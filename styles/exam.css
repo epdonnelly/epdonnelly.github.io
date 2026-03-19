@@ -35,6 +35,7 @@ header h2 {
     text-indent: 30px;
 }
 article h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: blue;
 }
 header img {
