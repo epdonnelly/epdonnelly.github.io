@@ -2,7 +2,7 @@ html {
     background-image: linear-gradient(to left, white 0%, rgb(255, 255, 255) 100%);
 }
 body {
-    font-family: "Times", "Times New Roman", "Georgia", serif;
+    font-family:Arial, Arial, Helvetica, sans-serif;    
     font-size: 100%;
     width: 95%;
     height: 2400px;
