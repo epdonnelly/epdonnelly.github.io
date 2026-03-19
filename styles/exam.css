@@ -19,7 +19,6 @@ body {
 }
 article h1{
     color:#0a1aff;
-    border-top: 5px solid #0a1aff;
 }
 a:focus, a:focus {
     font-style: italic;
@@ -123,5 +122,6 @@ footer {
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 #nav_menu{
-    border-bottom: 0px solid #0a1aff;
+    border-bottom: 5tpx solid #0a1aff;
+
 }
