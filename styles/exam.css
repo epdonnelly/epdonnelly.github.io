@@ -78,7 +78,7 @@ article {
     margin-left: 2em;
     background-color: transparent;
     margin-top: 80px;
-    border-top: 5px solid blue;
+    border-top: 0px solid blue;
 }
 article img {   
     float: left;
