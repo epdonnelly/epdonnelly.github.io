@@ -75,6 +75,11 @@ article {
     margin-left: 2em;
     background-color: transparent;
 }
+article img {   
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 aside {
     width: 20%;
     background-color: #7ad9fb;
