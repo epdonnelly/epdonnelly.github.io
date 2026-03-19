@@ -73,7 +73,7 @@ article {
     width: 75%;
     float: left;
     column-count: 3;
-    column-rule: 3px dotted rgb(4, 15, 129);
+    column-rule: 10px dotted rgb(4, 15, 129);
     column-gap: 1em;
     column-width: 2em;
     margin-left: 2em;
