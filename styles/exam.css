@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to left, white 0%, rgb(80, 155, 225) 100%);
+    background-image: linear-gradient(to left, white 0%, rgb(255, 255, 255) 100%);
 }
 body {
     font-family:Arial, Arial, Helvetica, sans-serif;
@@ -73,7 +73,7 @@ article {
     column-gap: 1em;
     column-width: 1em;
     margin-left: 2em;
-    background-color: #f7f7f7;
+    background-color: transparent;
 }
 article img {   
     float: left;
