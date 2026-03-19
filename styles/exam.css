@@ -73,7 +73,7 @@ article {
     column-gap: 1em;
     column-width: 1em;
     margin-left: 2em;
-    background-color: transparent;
+    background-color: #f7f7f7;
 }
 article img {   
     float: left;
