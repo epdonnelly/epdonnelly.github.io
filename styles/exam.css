@@ -9,9 +9,9 @@ body {
     background-color: #f7f7f7;
     margin: 15px auto;
     padding: 15px 1.5em;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 5px 5px 0 0;
+    border: 0px solid black;
+    border-radius: 0px;
+    box-shadow: 0px 0x 0 0;
     background: url(/images/titled2.png) right repeat-y;
     background-attachment: fixed;
     background-size: 50%;
