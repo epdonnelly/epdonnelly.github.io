@@ -69,9 +69,6 @@ article {
     clear: left;
     width: 75%;
     float: left;
-    column-rule: 5px dashed blue;
-    column-gap: 1em;
-    column-width: 2em;
     margin-left: 2em;
     background-color: transparent;
     margin-top: 50px;
