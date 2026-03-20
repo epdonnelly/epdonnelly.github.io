@@ -102,7 +102,6 @@ footer {
     right: 100px;
     width: auto;
     clear: both;
-    border-top: 2px solid #0a1aff;
 }
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
