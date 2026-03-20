@@ -17,9 +17,6 @@ body {
     background-size: 50%;
     background-position-x: 110%;
 }
-article h1{
-    color:#0a1aff;
-}
 a:focus, a:focus {
     font-style: italic;
     color:orangered;
@@ -72,14 +69,12 @@ article {
     clear: left;
     width: 75%;
     float: left;
-    column-count: 3;
     column-rule: 5px dashed blue;
     column-gap: 1em;
     column-width: 2em;
     margin-left: 2em;
     background-color: transparent;
     margin-top: 50px;
-    border-top: 0px solid blue;
 }
 article img {   
     float: left;
