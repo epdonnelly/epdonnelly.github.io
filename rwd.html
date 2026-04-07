@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/rwd.css">
-</head>
-<body>
-    <div>
-        <p>Eamonn Donnelly</p>
-    </div>
-    <input id="menu-toggle" type="checkbox">
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'>
-        <ul class="menu">
-            <li><a href="rwd.html" class="current">Home</li>
-            <li><a href="files/dog.jpg">Resume</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
-    </div>
-    </label>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David West</title>
+    <link rel="stylesheet" href="styles/rwd.css" />
+  </head>
+  <body>
+    <section class="top-nav">
+      <div>
+        <p>Your Name</p>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+      <ul class="menu">
+        <li class="current"><a href="rwd.html">Home</a></li>
+        <li><a href="resume.pdf" target="_blank">Resume</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Experience</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </section>
+
+    <article>
+      <h2>About Me</h2>
+      <img src="images/fatcat.jpg" alt="A wide photo" title="Profile Image" />
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    </article>
+
+    <footer>
+      <p>&copy; Your Name | <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+    </footer>
+  </body>
 </html>
