@@ -74,11 +74,11 @@ html, body {
     }
 
     table.third tbody td {
-      border-right: 1px solid orangered;
+      border-right: 1px solid white;
     }
 
     table.third tbody tr:last-child {
-      border-top: 2px solid orangered;
+      border-top: 2px solid white;
     }
 
     table.third tbody tr:nth-child(odd) {
