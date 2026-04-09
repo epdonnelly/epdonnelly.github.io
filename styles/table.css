@@ -59,8 +59,8 @@ html, body {
     }
 
     table.third thead tr:first-child th {
-      background-color: orangered;
-      color: white;
+      background-color: lightgreen;
+      color: black;
       text-align: left;
     }
 
