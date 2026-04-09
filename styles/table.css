@@ -69,7 +69,7 @@ html, body {
     }
 
     table.third thead tr:nth-child(2) th {
-      background-color: lightyellow;
+      background-color: white;
       border-right: 1px solid orangered;
     }
 
